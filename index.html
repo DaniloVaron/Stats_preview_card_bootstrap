@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Stats preview card component con bootstrap</title>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./css/custom.css">
+
+</head>
+
+<body class="bg-primary text-light d-flex justify-content-center align-items-center">
+
+  <!-- Contenedor -->
+  <main class="container d-flex flex-column align-items-center my-5">
+
+    <!-- Carta -->
+
+    <section class="bg-secondary card overflow-hidden border-0 rounded-5 flex-md-row-reverse mb-3">
+
+      <!-- Imagen -->
+      <div class="fondo_imagen w-100">
+        <picture>
+          <source srcset="images/image-header-mobile.jpg" type="image/jpg" media="(max-width: 767px)" />
+          <source srcset="images/image-header-desktop.jpg" type="image/jpg" media="(min-width: 768px)" />
+          <img src="./images/image-header-mobile.jpg" alt="reunion" class="card-img-top">
+        </picture>
+      </div>
+
+      <!-- Información -->
+      <div class="card-body p-0 text-center text-md-start w-100 p-5">
+
+        <!-- Titulo y texto -->
+        <div class=" d-flex flex-column align-items-center">
+
+          <!-- Titulo -->
+          <h1 class="card-title h2">Get <span class="text-info">insights</span> that help your business grow.
+          </h1>
+
+          <!-- Texto -->
+          <p class="m-0 pe-md-5 pt-3 pt-md-4 texto">
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer
+            experience, and overall efficiency.
+          </p>
+        </div>
+
+        <!-- Datos -->
+        <div class="row d-flex justify-content-between mt-5">
+
+          <!-- Primer Dato -->
+          <div class="col-12 col-md-4 ">
+
+            <!-- Cantidad -->
+            <h2 class="h5">10K+</h2>
+            <!-- Referencia -->
+            <p class="text-uppercase datos">companies</p>
+          </div>
+
+          <!-- Segundo Dato -->
+          <div class="col-12 col-md-4">
+
+            <!-- Cantidad -->
+            <h2 class="h5">314</h2>
+            <!-- Referencia -->
+            <p class="text-uppercase datos">templates</p>
+          </div>
+
+          <!-- Tercer Dato -->
+          <div class="col-12 col-md-4">
+
+            <!-- Cantidad -->
+            <h2 class="h5">12M+</h2>
+            <!-- Referencia -->
+            <p class="text-uppercase m-0 datos">queries</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Desafío por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Codificado por <a href="https://github.com/DaniloVaron" target="_blank">Danilo Varon</a>.
+    </div>
+  </main>
+</body>
+
+</html>
