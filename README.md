@@ -16,7 +16,7 @@ El reto fue resuelto con html, css, bootstrap y sass de una forma sencilla.
 
 ### Links
 
-- URL del Sitio: [Sitio Web](https://danilovaron.github.io/NFT_preview_card_bootstrap/)
+- URL del Sitio: [Sitio Web](https://danilovaron.github.io/Stats_preview_card_bootstrap/)
 
 ## Proceso
 
